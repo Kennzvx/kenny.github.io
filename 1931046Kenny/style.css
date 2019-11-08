@@ -1,0 +1,60 @@
+.jumbotron{
+	width:200%;
+	position:fixed;
+}
+
+.header{
+	width:100%;
+	background-color: rgba(0,0,0,.2);
+	position:fixed;
+	overflow:hidden;
+	z-index: 5;
+}
+.header ul li{
+	list-style: none;
+	display: inline-block;
+}
+.header ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'raleway', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding:20px;
+	transition: all ease 0.5s;
+}
+.header ul li a:hover{
+	background-color: #211b4385;
+}
+
+.box{
+	display: block;
+	float:left;
+	width: 33%;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.box img{
+	width: 100%;
+	border-radius: 10px;
+}
+.box img:hover{
+	transform: scale(2,2);
+	transform: 2s transform;
+	border-radius: 10px;
+}
+footer {
+	background-color: #333;
+	width: 100%;
+	min-height: 30px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
